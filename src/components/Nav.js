@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Nav.css";
 
-function Nav() {
+const Nav = () => {
   const [show, handleShow] = useState(false);
 
   useEffect(() => {
@@ -34,6 +34,6 @@ function Nav() {
       </div>
     </div>
   );
-}
+};
 
 export default Nav;
